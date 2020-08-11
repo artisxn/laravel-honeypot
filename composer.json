@@ -1,22 +1,21 @@
 {
-    "name": "spatie/laravel-honeypot",
-    "description": "Preventing spam submitted through forms",
+    "name": "codicastudio/honeypot",
+    "description": "A noobs worthless garbage, just learning.",
     "keywords": [
-        "spatie",
-        "laravel-honeypot"
+        "worthless garabage by a noob."
     ],
-    "homepage": "https://github.com/spatie/laravel-honeypot",
+    "homepage": "https://github.com/codicastudio/honeypot",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Michael J Brown",
+            "email": "codicastudiodev@gmail.com",
+            "homepage": "https://codicastudio.dev",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.4.8",
         "illuminate/contracts": "^7.0",
         "illuminate/encryption": "^7.0",
         "illuminate/http": "^7.0",
@@ -31,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Honeypot\\": "src"
+            "codicastudio\\Honeypot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Honeypot\\Tests\\": "tests"
+            "codicastudio\\Honeypot\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Honeypot\\HoneypotServiceProvider"
+                "codicastudio\\Honeypot\\HoneypotServiceProvider"
             ]
         }
     },
