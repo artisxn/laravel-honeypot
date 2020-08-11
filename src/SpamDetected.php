@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Honeypot;
+namespace codicastudio\Honeypot;
 
 use Illuminate\Http\Request;
 

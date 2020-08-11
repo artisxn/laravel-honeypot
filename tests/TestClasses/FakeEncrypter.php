@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Honeypot\Tests\TestClasses;
+namespace codicastudio\Honeypot\Tests\TestClasses;
 
 use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Support\Str;

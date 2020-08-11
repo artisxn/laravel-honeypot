@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Honeypot\SpamResponder;
+namespace codicastudio\Honeypot\SpamResponder;
 
 use Closure;
 use Illuminate\Http\Request;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Honeypot\Tests;
+namespace codicastudio\Honeypot\Tests;
 
 use Carbon\CarbonImmutable;
 use Illuminate\Support\DateFactory;
-use Spatie\Snapshots\MatchesSnapshots;
+use codicastudio\Snapshots\MatchesSnapshots;
 
 class HoneypotBladeDirectiveTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\Honeypot;
+namespace codicastudio\Honeypot;
 
 use Closure;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Spatie\Honeypot\SpamResponder\SpamResponder;
+use codicastudio\Honeypot\SpamResponder\SpamResponder;
 use Symfony\Component\HttpFoundation\Response;
 
 class ProtectAgainstSpam
 {
-    /** @var \Spatie\Honeypot\SpamResponder\SpamResponder */
+    /** @var \codicastudio\Honeypot\SpamResponder\SpamResponder */
     protected $spamResponder;
 
     public function __construct(SpamResponder $spamResponder)

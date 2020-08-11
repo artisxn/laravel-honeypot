@@ -1,6 +1,6 @@
 <?php
 
-use Spatie\Honeypot\SpamResponder\BlankPageResponder;
+use codicastudio\Honeypot\SpamResponder\BlankPageResponder;
 
 return [
     /*
@@ -35,7 +35,7 @@ return [
      * are detected as being spammy. By default a blank page is shown.
      *
      * A valid responder is any class that implements
-     * `Spatie\Honeypot\SpamResponder\SpamResponder`
+     * `codicastudio\Honeypot\SpamResponder\SpamResponder`
      */
     'respond_to_spam_with' => BlankPageResponder::class,
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Honeypot\Tests;
+namespace codicastudio\Honeypot\Tests;
 
 use Carbon\CarbonInterface;
 use Illuminate\Foundation\Testing\Concerns\InteractsWithContainer;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\View;
-use Spatie\Honeypot\HoneypotServiceProvider;
-use Spatie\Honeypot\Tests\TestClasses\FakeEncrypter;
+use codicastudio\Honeypot\HoneypotServiceProvider;
+use codicastudio\Honeypot\Tests\TestClasses\FakeEncrypter;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

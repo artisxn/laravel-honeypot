@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Honeypot;
+namespace codicastudio\Honeypot;
 
 use DateTimeInterface;
 use Illuminate\Support\Facades\Date;

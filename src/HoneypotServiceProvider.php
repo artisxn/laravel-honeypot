@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Honeypot;
+namespace codicastudio\Honeypot;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use Spatie\Honeypot\SpamResponder\SpamResponder;
+use codicastudio\Honeypot\SpamResponder\SpamResponder;
 
 class HoneypotServiceProvider extends ServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Honeypot\Tests;
+namespace codicastudio\Honeypot\Tests;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
 use Illuminate\Testing\TestResponse;
-use Spatie\Honeypot\EncryptedTime;
-use Spatie\Honeypot\ProtectAgainstSpam;
+use codicastudio\Honeypot\EncryptedTime;
+use codicastudio\Honeypot\ProtectAgainstSpam;
 
 class ProtectAgainstSpamTest extends TestCase
 {
