@@ -25,17 +25,16 @@
 
     },
     "require-dev": {
-        "spatie/phpunit-snapshot-assertions": "^3.0",
-        "orchestra/testbench": "^5.0"
+        "spatie/phpunit-snapshot-assertions": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "codicastudio\\Honeypot\\": "src"
+            "codicastudio\\honeypot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "codicastudio\\Honeypot\\Tests\\": "tests"
+            "codicastudio\\honeypot\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "codicastudio\\Honeypot\\HoneypotServiceProvider"
+                "codicastudio\\honeypot\\honeypotServiceProvider"
             ]
         }
     },
